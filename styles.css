@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('resources/dmc-devil-may-cry-vergil-hd-wallpaper-preview.jpg') repeat;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #15749A;
+    color: #FFFFFF;
+    padding: 2px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+.nav-button, .power-button {
+    display: inline-block;
+    background-color: #0A3A4D;
+    border-radius: 12px;
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+
+.nav-button a, .power-button button {
+    color: #FFFFFF;
+    text-decoration: none;
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+}
+
+.main-container {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 100px 50px 20px 50px;
+}
+
+.section {
+    padding: 80px 20px 20px 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.profile {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    margin-left: 20px;
+    width: 500px;
+}
+
+.bio p {
+    margin: 10px 30px;
+    font-size:large;
+    text-align: justify;
+    flex: 1;
+}
+
+h1, h2 {
+    color: #FFFFFF;
+}
+
+table {
+    width: 100%;
+    font-size: large;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #FFFFFF;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+footer {
+    background-color: #15749A;
+    color: #FFFFFF;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer .social a {
+    color: #FFFFFF;
+    margin: 0 10px;
+    text-decoration: none;
+}
