@@ -17,7 +17,7 @@ Follow these steps to set up your development environment:
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/GSGEdgardo/OrtizEdgardo_Tarea2.git
+git clone https://github.com/GSGEdgardo/Vergil_Portfolio.git
 ```
 
 ## Usage
